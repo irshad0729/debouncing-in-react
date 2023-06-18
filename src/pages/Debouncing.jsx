@@ -18,7 +18,7 @@ const Debouncing = () => {
 
   return (
     <React.Fragment>
-      <h1>Debouncing Implementation</h1>
+      <h1>Debouncing Implementation in React</h1>
       <input type="text" onChange={apiCall} />
     </React.Fragment>
   );
