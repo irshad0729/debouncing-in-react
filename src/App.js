@@ -3,13 +3,14 @@ import "./App.css";
 import store from "./utils/store";
 import { Provider } from "react-redux";
 import Debouncing from "./pages/Debouncing";
-import Checkbox from "./pages/Checkbox";
+import Throttling from "./pages/components/Throttling";
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
         {/* <Debouncing/> */}
-        <Checkbox />
+        {/* <Checkbox /> */}
+        <Throttling/>
       </div>
     </Provider>
   );
